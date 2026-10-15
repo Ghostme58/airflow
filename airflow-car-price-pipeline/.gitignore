@@ -1,0 +1,21 @@
+# macOS and IDE
+.DS_Store
+.idea/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Local environment and Airflow runtime state
+.env
+airflow.cfg
+airflow-webserver.pid
+logs/
+config/
+plugins/
+
+# Generated ML artefacts
+data/models/*.pkl
+!data/models/.gitkeep
+data/predictions/*.csv
+!data/predictions/.gitkeep
